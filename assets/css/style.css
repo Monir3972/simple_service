@@ -1,0 +1,119 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    color:#222222;
+}
+body {
+ color: #666662;
+ font-size: 16px;
+ font-family: 'Raleway', sans-serif;
+}
+a{
+    color: #666662;
+}
+a:hover { text-decoration: none;
+    color: #666662;
+ }
+.section-title {
+    margin-bottom: 65px;
+    text-align: center;
+}
+.section-padding {
+    padding: 80px 0;
+}
+.section-title h2{
+   position: relative;
+   z-index: 1;
+   padding-bottom: 18px;
+   margin-bottom: 25px;
+}
+/*.section-title h3::before {
+    bottom: 0;
+    height: 1px;
+    left: 50%;
+    position: absolute;
+    width: 130px;
+    content: "";
+    background: #ff8f17;
+    margin-left: -65px;
+}
+.section-title h3::after {
+    
+    height: 13px;
+    left: 50%;
+    position: absolute;
+    width: 13px;
+    content: "";
+    border:2px solid #fff;
+    bottom:-6.5px;
+    margin-left: -6.5px;
+    border-radius: 50%;
+}*/
+.section-title h2::before {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 60px;
+    height: 5px;
+    content: "";
+    background: #ff8f17;
+    margin-left: -30px;
+}
+.section-title h2::after {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 20px;
+    height: 5px;
+    content: "";
+    background: #;
+    background: #222222;
+    margin-left: -10px;
+}
+.single-service-icon {
+    text-align: center;
+    display: block;
+    
+    min-height: 375px;
+    margin-bottom: 37px;
+}
+.service-icon-container {
+    display: table;
+    width: 100%;
+    height: 138px;
+}
+.service-icon-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+}
+.fa.fa-star {
+    color: yellow;
+    font-size: 122px;
+}
+.fa.fa-home {
+    font-size: 82px;
+    color: #e97575;
+}
